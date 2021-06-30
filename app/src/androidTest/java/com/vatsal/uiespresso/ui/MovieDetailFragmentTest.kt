@@ -35,4 +35,6 @@ class MovieDetailFragmentTest{
         onView(withId(R.id.movie_description))
                 .check(matches(withText(movie.description)))
     }
+
+
 }
